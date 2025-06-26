@@ -1,0 +1,27 @@
+CRITICAL - 2025-05-12 01:35:57 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: api/keranjang]
+in APPPATH\Controllers\keranjangController.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KeranjangController->getByUser()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KeranjangController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-12 01:36:01 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: api/keranjang]
+in APPPATH\Controllers\keranjangController.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KeranjangController->getByUser()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KeranjangController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-12 01:36:03 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: api/keranjang]
+in APPPATH\Controllers\keranjangController.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KeranjangController->getByUser()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KeranjangController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
